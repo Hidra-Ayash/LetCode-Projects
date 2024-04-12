@@ -12,4 +12,6 @@ var findNumbers = function(nums) {
      }
     return count
 };
-console.log(findNumbers( [555,901,482,1771]))
+ //                'odd' 'odd' 'odd' 'even'
+//Example ---> Array [555,901,482,1771]
+console.log(findNumbers( [555,901,482,1771])) //1
