@@ -10,7 +10,7 @@ var frequencySort = function (s) {
   }
   const ansObj = {};
   for (let num of res) {
-    ansObj[num] = (ansObj[num] || 0) + 1;
+    ansObj[num] = (ansObj[num] || 0) + 1; //Get The Frequency of Element
   }
 
   let ans = {};
