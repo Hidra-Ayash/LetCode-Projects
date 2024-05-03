@@ -6,6 +6,7 @@ var allPathsSourceTarget = function (graph) {
   let size = graph.length - 1;
   let arrRes = [];
   const dfs = function (node, path) {
+    console.log(node, path);
     if (node == size) {
       arrRes.push(path);
     }
@@ -14,7 +15,6 @@ var allPathsSourceTarget = function (graph) {
     }
   };
   dfs(0, [0]);
-  return arrRes;
 };
 console.log(
   allPathsSourceTarget((graph = [[4, 3, 1], [3, 2, 4], [3], [4], []]))
