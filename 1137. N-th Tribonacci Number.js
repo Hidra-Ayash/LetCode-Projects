@@ -10,4 +10,4 @@ var tribonacci = function (n) {
   }
   return arr[n];
 };
-console.log(tribonacci(25));
+console.log(tribonacci(4));//T[0]=0 , T[1]=1 , T[2]=1 , T[3]=2 , T[4]=4
