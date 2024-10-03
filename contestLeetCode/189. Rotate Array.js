@@ -9,6 +9,8 @@ var rotate = function (nums, k) {
   }
   k = k % nums.length;
   let rightArr = nums.splice(nums.length - k, k);
+  console.log(rightArr);
   nums.unshift(...rightArr);
   return nums;
 };
+console.log(rotate([1, 2, 3], 2));
